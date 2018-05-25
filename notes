@@ -1,0 +1,5 @@
+
+redis local options:
+-linux
+-docker(requires hyper-v and modern hardware)
+-windows' linux subsystem

@@ -1,7 +1,0 @@
-Build A Node.js & Redis App From Scratch(Brad Traversy):
-https://www.youtube.com/watch?v=9S-mphgE5fA
-
-redis local options:
--linux
--docker(requires hyper-v and modern hardware)
--windows' linux subsystem
