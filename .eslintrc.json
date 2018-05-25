@@ -1,0 +1,22 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "globalReturn": true
+        }
+    },
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "plugins": [
+        "promise"
+    ],
+    "rules": {
+        "no-console": "warn",
+        "no-unused-vars": "warn"
+    },
+    "extends": [
+        "plugin:promise/recommended"
+    ]
+}
