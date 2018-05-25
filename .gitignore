@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# custom
+.vscode
+liveServer
+.atom-live-server.json
+.eslintrc.json
+yarn.lock
