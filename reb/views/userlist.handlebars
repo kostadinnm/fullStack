@@ -1,0 +1,9 @@
+<h1>User list</h1>
+{{#if error}}
+<span>{{error}}</span>
+{{/if}}
+<ul class="list-group">
+    {{#each users}}
+        {{>userRow}}
+    {{/each}}
+</ul>

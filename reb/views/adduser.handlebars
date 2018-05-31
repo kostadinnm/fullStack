@@ -1,0 +1,16 @@
+<h1>Add User</h1>
+{{#if error}} <span>{{error}}</span>{{/if}}
+{{#if exists}}
+    <div>
+        <a href="/user/edit/{{id}}" class="btn btn-primary">Edit</a>
+    </div>
+{{else}}
+    <form action="/user/add" method="post">
+        <div class="form-group">
+            <label>ID</label>
+            <input type="text" name="id" placeholder="Add ID" class="form-control">
+        </div>
+        {{>userFields}}
+        <input type="submit" value="Save" class="btn btn-primary">
+    </form>
+{{/if}}

@@ -1,0 +1,15 @@
+<h1>Edit user</h1>
+{{#if error}}
+<span>{{error}}</span>{{/if}}
+<h2>{{user.id}}</h2>
+<form action="/user/edit/{{user.id}}" method="post" id="userFields" >
+    {{>userFields}}
+</form>
+<div>
+    <div>
+        <input type="submit" value="Edit" form="userFields" class="btn btn-primary float-left">
+    </div>
+    <form action="/user/delete/{{user.id}}?_httpaction=DELETE" method="post" class="mt-2 float-right">
+        <input type="submit" value="Delete" class="btn btn-danger">
+    </form>
+</div>
