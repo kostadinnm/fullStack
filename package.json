@@ -1,5 +1,23 @@
 {
-  "dependencies": {
-    "inert": "^5.1.0"
-  }
+    "dependencies": {},
+    "name": "fullstack",
+    "description": "Playground for evaluating datagase, backend and frontend technologies",
+    "version": "0.1.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kostadinnm/fullStack.git"
+    },
+    "author": "kostadin.markov@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kostadinnm/fullStack/issues"
+    },
+    "homepage": "https://github.com/kostadinnm/fullStack#readme",
+    "devDependencies": {
+        "prettier": "^1.14.3"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120
+    }
 }

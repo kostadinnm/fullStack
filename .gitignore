@@ -63,6 +63,13 @@ typings/
 # custom
 .vscode
 liveServer
+myeslint
+node_modules
 .atom-live-server.json
 .eslintrc.json
+.jslintrc
 yarn.lock
+package.json
+package-lock.json
+.DS_Store
+.idea
