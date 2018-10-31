@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "outDir": "dist/cjs",
+        "newLine": "crlf",
+        "moduleResolution": "Node",
+        "lib": [
+            "DOM",
+            "ES6",
+            "DOM.Iterable",
+            "ScriptHost",
+            "ES2015",
+            "ES2015.Core",
+            "ES2015.Collection",
+            "ES2015.Generator",
+            "ES2015.Iterable",
+            "ES2015.Promise",
+            "ES2015.Proxy",
+            "ES2015.Reflect",
+            "ES2015.Symbol",
+            "ES2015.Symbol.WellKnown"
+        ],
+        "esModuleInterop": "true",
+        "allowSyntheticDefaultImports": "true"
+    },
+    "exclude": ["node_modules", "dist"]
+}
