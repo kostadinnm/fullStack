@@ -3,10 +3,13 @@
     "version": "0.1.0",
     "description": "Price register",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "testDb": "ava ./dumbdb.test.js"
     },
     "author": "kostadin.markov@gmail.com",
     "license": "MIT",
     "dependencies": {},
-    "devDependencies": {}
+    "devDependencies": {
+        "ava": "^0.25.0",
+        "esm": "^3.0.84"
+    }
 }
