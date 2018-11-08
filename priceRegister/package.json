@@ -7,7 +7,9 @@
     },
     "author": "kostadin.markov@gmail.com",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "uuid": "^3.3.2"
+    },
     "devDependencies": {
         "ava": "^0.25.0",
         "esm": "^3.0.84"
