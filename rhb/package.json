@@ -10,7 +10,7 @@
     "eslint-plugin-promise": "^3.8.0"
   },
   "dependencies": {
-    "hapi": "^17.5.0",
+    "@hapi/hapi": "^20.0.1",
     "inert": "^5.1.0",
     "redis": "^2.8.0",
     "vision": "^5.3.2"
